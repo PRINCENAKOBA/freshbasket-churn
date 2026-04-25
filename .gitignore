@@ -1,0 +1,59 @@
+# Data files 
+data/ 
+*.csv 
+*.parquet 
+*.xlsx 
+*.json 
+!config/*.json 
+  
+# Model artifacts 
+models/ 
+*.pkl 
+*.joblib 
+*.h5 
+*.pt 
+*.onnx 
+  
+# Python environment 
+venv/ 
+env/ 
+__pycache__/ 
+*.pyc 
+*.pyo 
+.Python 
+  
+# Jupyter 
+.ipynb_checkpoints/ 
+  
+# IDE 
+.vscode/ 
+.idea/ 
+*.swp 
+  
+# Secrets 
+.env 
+*.pem 
+*.key 
+credentials.json 
+secrets.yaml 
+  
+# OS 
+.DS_Store 
+Thumbs.db 
+  
+# MLflow 
+mlruns/ 
+mlartifacts/ 
+  
+M1 Lab: Git & GitHub Bootcamp — Student Manual 
+AWS MLOps Training v4.0 
+# Logs 
+*.log 
+logs/ 
+EOF 
+
+
+
+
+
+
